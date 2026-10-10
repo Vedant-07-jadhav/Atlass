@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lin1907/Code/Autonomous_drone/build/_deps/googletest-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,5 @@
+if(EXISTS "/home/lin1907/Code/Autonomous_drone/build/test_grid[1]_tests.cmake")
+  include("/home/lin1907/Code/Autonomous_drone/build/test_grid[1]_tests.cmake")
+else()
+  add_test(test_grid_NOT_BUILT test_grid_NOT_BUILT)
+endif()
