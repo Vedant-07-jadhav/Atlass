@@ -1,0 +1,5 @@
+if(EXISTS "/Users/angelinjacobs/Desktop/Vedant/Projects/Atlass/build/test_grid_e3b0c442_tests.cmake")
+  include("/Users/angelinjacobs/Desktop/Vedant/Projects/Atlass/build/test_grid_e3b0c442_tests.cmake")
+else()
+  add_test(test_grid_NOT_BUILT test_grid_NOT_BUILT)
+endif()

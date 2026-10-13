@@ -1,2 +1,2 @@
-/usr/bin/ar qc libgrid.a CMakeFiles/grid.dir/src/grid/OccupancyGrid.cpp.o
+/usr/bin/ar qc libgrid.a CMakeFiles/grid.dir/src/grid/OccupancyGrid.cpp.o CMakeFiles/grid.dir/src/grid/AStarPlanner.cpp.o
 /usr/bin/ranlib libgrid.a

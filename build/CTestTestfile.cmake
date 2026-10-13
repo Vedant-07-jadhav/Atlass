@@ -1,8 +1,9 @@
 # CMake generated Testfile for 
-# Source directory: /home/lin1907/Code/Autonomous_drone
-# Build directory: /home/lin1907/Code/Autonomous_drone/build
+# Source directory: /Users/angelinjacobs/Desktop/Vedant/Projects/Atlass
+# Build directory: /Users/angelinjacobs/Desktop/Vedant/Projects/Atlass/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-include("/home/lin1907/Code/Autonomous_drone/build/test_grid[1]_include.cmake")
+include("/Users/angelinjacobs/Desktop/Vedant/Projects/Atlass/build/test_grid_e3b0c442_include.cmake")
+include("/Users/angelinjacobs/Desktop/Vedant/Projects/Atlass/build/test_planner_e3b0c442_include.cmake")
 subdirs("_deps/googletest-build")

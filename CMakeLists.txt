@@ -14,7 +14,7 @@ include_directories(include)
 # ---------------------------------------------------------
 # Phase 1: Grid Library
 # ---------------------------------------------------------
-add_library(grid src/grid/OccupancyGrid.cpp)
+add_library(grid src/grid/OccupancyGrid.cpp src/grid/AStarPlanner.cpp)
 target_include_directories(grid PUBLIC include)
 
 # ---------------------------------------------------------
@@ -33,5 +33,9 @@ enable_testing()
 add_executable(test_grid tests/test_grid.cpp)
 target_link_libraries(test_grid PRIVATE grid gtest_main)
 
+add_executable(test_planner tests/test_planner.cpp)
+target_link_libraries(test_planner PRIVATE grid gtest_main)
+
 include(GoogleTest)
 gtest_discover_tests(test_grid)
+gtest_discover_tests(test_planner)

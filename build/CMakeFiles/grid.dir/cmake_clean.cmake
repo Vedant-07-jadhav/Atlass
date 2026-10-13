@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/grid.dir/src/grid/AStarPlanner.cpp.o"
+  "CMakeFiles/grid.dir/src/grid/AStarPlanner.cpp.o.d"
   "CMakeFiles/grid.dir/src/grid/OccupancyGrid.cpp.o"
   "CMakeFiles/grid.dir/src/grid/OccupancyGrid.cpp.o.d"
   "libgrid.a"

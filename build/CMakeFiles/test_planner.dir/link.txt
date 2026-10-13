@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Wpedantic -Werror=return-type -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_planner.dir/tests/test_planner.cpp.o -o test_planner  libgrid.a lib/libgtest_main.a lib/libgtest.a
